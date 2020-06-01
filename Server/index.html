@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        $(() => {
+            var socket = io();
+            socket.emit('user_server_2','CAPTURE')
+        });
+        
+    </script>
+</head>
+
+<body>
+    test
+</body>
+
+</html>
